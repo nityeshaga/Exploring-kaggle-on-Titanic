@@ -18,7 +18,7 @@ In this challenge, the participants were asked to complete the analysis of what 
 
 * **[test.csv](https://github.com/nityeshaga/Exploring-kaggle-on-Titanic/blob/master/test.csv)** - a csv file containing the test data
 
-* **[submission.csv](https://github.com/nityeshaga/Exploring-kaggle-on-Titanic/blob/master/submission.csv)** - a csv file containing the data I submitted to the competetion. It got me an accuracy of 0.75598.
+* **[submission.csv](https://github.com/nityeshaga/Exploring-kaggle-on-Titanic/blob/master/submission.csv)** - a csv file containing the data I submitted to the competetion. It got me an accuracy of 75.598%.
 
 #### Data description (as provided on the [competetion's webpage](https://www.kaggle.com/c/titanic/data)):
 
@@ -36,7 +36,7 @@ We also include gender_submission.csv, a set of predictions that assume all and 
 **Data Dictionary**
 
 |Variable  |Definition                                 |Key                                           |
-|----------|------------------------------------------------------------------------------------------|
+|----------|-------------------------------------------|----------------------------------------------|
 |survival  |Survival	                               |0 = No, 1 = Yes                               |
 |pclass    |Ticket class	                           |1 = 1st, 2 = 2nd, 3 = 3rd                     |
 |sex       |Sex                                        |                                              |	
@@ -49,18 +49,19 @@ We also include gender_submission.csv, a set of predictions that assume all and 
 |embarked  |Port of Embarkation	                       |C = Cherbourg, Q = Queenstown, S = Southampton|
 
 **Variable Notes**
-pclass: A proxy for socio-economic status (SES)
+
+* pclass: A proxy for socio-economic status (SES)
 1st = Upper
 2nd = Middle
 3rd = Lower
 
-age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
+* age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
 
-sibsp: The dataset defines family relations in this way...
+* sibsp: The dataset defines family relations in this way...
 Sibling = brother, sister, stepbrother, stepsister
 Spouse = husband, wife (mistresses and fiancés were ignored)
 
-parch: The dataset defines family relations in this way...
+* parch: The dataset defines family relations in this way...
 Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.

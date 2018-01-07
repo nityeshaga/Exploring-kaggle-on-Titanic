@@ -1,8 +1,8 @@
-## Exploring [Kaggle](https://www.kaggle.com/) on Titanic
+# Exploring [Kaggle](https://www.kaggle.com/) on Titanic
 
 In this project I try to explore [Kaggle](https://www.kaggle.com/), a platform for datascience enthusiasts, using its famous [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic) competition. 
 
-#### Competition description:
+### Competition description:
 
 The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.
 
@@ -10,7 +10,7 @@ One of the reasons that the shipwreck led to such loss of life was that there we
 
 In this challenge, the participants were asked to complete the analysis of what sorts of people were likely to survive. In particular, the participants were asked to apply the tools of machine learning to predict which passengers survived the tragedy.
 
-#### Files included in this repository:
+### Files included in this repository:
 
 * **[exploration.ipynb](https://github.com/nityeshaga/Exploring-kaggle-on-Titanic/blob/master/exploration.ipynb)** - the iPython notebook that I created for analysing, exploring and wrangling the data and finally trying a bunch of different models to see the results. The notebook is largely inspired from [an excellent public kernel](https://www.kaggle.com/startupsci/titanic-data-science-solutions?scriptVersionId=1145136). 
 
@@ -20,7 +20,7 @@ In this challenge, the participants were asked to complete the analysis of what 
 
 * **[submission.csv](https://github.com/nityeshaga/Exploring-kaggle-on-Titanic/blob/master/submission.csv)** - a csv file containing the data I submitted to the competetion. It got me an accuracy of 75.598%.
 
-#### Data description (as provided on the [competetion's webpage](https://www.kaggle.com/c/titanic/data)):
+### Data description (as provided on the [competetion's webpage](https://www.kaggle.com/c/titanic/data)):
 
 The data has been split into two groups:
 
